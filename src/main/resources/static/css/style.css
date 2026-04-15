@@ -1,0 +1,66 @@
+
+#con {
+    background-color: #1b7e14;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding: 10px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-bar h1,
+.nav-bar h5 {
+    font-weight: 300;
+}
+
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#formSection {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-primary {
+    background-color: #1b7e14;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #145c0f;
+}
+
+#chartSection {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.auth-container {
+    width: 350px;
+    margin: 80px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auth-container input {
+    margin-bottom: 10px;
+}
+
+.auth-container button {
+    width: 100%;
+}
